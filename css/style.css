@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'Arvo';
+    src: url('../fonts/Arvo-Bold.eot');
+    src: url('../fonts/Arvo-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Arvo-Bold.woff2') format('woff2'),
+    url('../fonts/Arvo-Bold.woff') format('woff'),
+    url('../fonts/Arvo-Bold.ttf') format('truetype'),
+    url('../fonts/Arvo-Bold.svg#Arvo-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+header div{
+    background-color: #af2024;
+    height: 40px;
+}
+.up{
+    background-image: url("../images/background1.jpg");
+    height: 820px;
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    max-width: 960px;
+    margin: auto;
+
+}
+
+img{
+    margin-top: 19px;
+
+}
+.win{
+    max-width: 710px;
+    margin: auto;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 180px;
+
+}
+.win1{
+    background-color: #98161b;
+    height: 70px;
+}
+h2{
+    font-family: Arvo;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 27px 18px;
+    color: white;
+}
+.win2{
+    background-color: white;
+    height: 678px;
+    display: flex;
+    flex-direction: column;
+}
+.win2 .monitor{
+    background-color: #e7e7e7;
+    width: 564px;
+    height: 344px;
+    position: relative;
+    left: 74px;
+    top: 64px;
+    padding-top: 30px;
+
+}
+.win2 i{
+    color: #98161b;
+    font-size: 54px;
+    position: absolute;
+    top: 143px;
+    left: 264px;
+}
+.win2 .name_date{
+    position: relative;
+    left: 74px;
+    top: 130px;
+    color: #98161b;
+
+}
+.about{
+    max-width: 564px;
+    line-height: 19px;
+}
+
+
+
+.date{
+    color: #7d7d7d;
+}
+.foot1{
+    height: 33px;
+    background-color: #3f0002;
+}
+.foot2{
+    height: 454px;
+    background-color: black;
+}
+li{
+    width: 50px;
+    height: 50px;
+    font-size: 45px;
+
+    text-align: center;
+    background-color: #850409;
+    color: #ffffff;
+}
+.social_icon{
+    position: fixed;
+    right: 0;
+    top: 260px;
+}
+.soc_fb i {
+    background-color: #850409;
+
+    color: #ffffff;
+
+}
+.soc_tw i{
+    background-color: #98161b;
+
+    color: #ffffff;
+
+}
+
+ul{
+    list-style: none;
+}
